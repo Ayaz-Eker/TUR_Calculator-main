@@ -1,12 +1,10 @@
-# İçe Aktarma
 
 from flask import Flask, render_template, request, url_for
 
 app = Flask(__name__)
-# Vercel'in uygulamayı görmesi için bu değişken şart:
+# Vercel'in uygulamayı bulabilmesi için bu satır çok önemli
 app.debug = True
-application = app  
-
+app = app
 
 
 
