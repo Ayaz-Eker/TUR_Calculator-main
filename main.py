@@ -3,6 +3,7 @@ from flask import Flask, render_template, request, url_for
 
 
 app = Flask(__name__)
+app = app
 
 def result_calculate(size, lights, device):
     # Elektrikli cihazların enerji tüketimini hesaplamaya olanak tanıyan değişkenler
@@ -60,3 +61,4 @@ def submit_form():
                            )
 
 app.run(debug=True)
+
