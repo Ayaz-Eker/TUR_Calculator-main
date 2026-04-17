@@ -1,4 +1,18 @@
 # İçe Aktarma
+
+from flask import Flask, render_template, request, url_for
+
+app = Flask(__name__)
+# Vercel'in uygulamayı görmesi için bu değişken şart:
+app.debug = True
+application = app  
+
+
+
+
+
+
+
 from flask import Flask, render_template, request, url_for
 
 
